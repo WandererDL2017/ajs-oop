@@ -1,0 +1,35 @@
+{
+  "name": "ajs-oop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WandererDL2017/ajs-oop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WandererDL2017/ajs-oop/issues"
+  },
+  "homepage": "https://github.com/WandererDL2017/ajs-oop#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.4.6",
+    "babel-loader": "^8.2.3",
+    "core-js": "^3.20.3",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.4.7",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
